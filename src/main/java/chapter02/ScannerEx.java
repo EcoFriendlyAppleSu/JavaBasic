@@ -1,6 +1,5 @@
-package Chapter02;
+package chapter02;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ScannerEx {
