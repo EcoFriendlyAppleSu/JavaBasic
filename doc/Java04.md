@@ -50,7 +50,7 @@
     	System.out.println(arr[i]);
     }
     --- same result ---
-    for( int temp : arr ){ 	System.out.println(arr[i]); }
+    for( int temp : arr ){ 	System.out.println(arr[i]); } // temp는 1부터 시작한다.
     ```
     
     - continue
