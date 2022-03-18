@@ -28,5 +28,25 @@ public class Array07 {
             System.out.println(Arrays.toString(num));
         }
 
+        int space;
+        for (int i = 0; i < num.length; i++) {
+            int temp = (int) (Math.random() * num.length);
+            space = num[0];
+            num[0] = num[temp];
+            num[temp] = space;
+        }
+        System.out.println(Arrays.toString(num));
+
+        for (int i = 0; i < num.length; i++) {
+            for (int j = 0; j < num.length - 1 - i; j++) {
+                if (num[j] > num[j + 1]) {
+                    int temp = num[j];
+                    num[j] = num[j + 1];
+                    num[j + 1] = temp;
+                }
+            }
+        }
+
+        System.out.println(Arrays.toString(num));
     }
 }
