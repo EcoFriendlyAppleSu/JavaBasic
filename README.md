@@ -6,4 +6,4 @@
 - [Chapter.05 배열](/doc/Java05.md)
 - [Chapter.06 객체지향01](/doc/Java06.md)
 - [Chapter.06 객체지향01_생성자](/doc/Java06_01.md)
-- [Chapter.06 객체지향02](/doc/Java07.md)
+- [Chapter.07 객체지향02](/doc/Java07.md)
