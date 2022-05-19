@@ -1,15 +1,16 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
+import java.util.*;
 
 public class testFile {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 5, 4, 6};
+        ArrayList<String> stringArrayList = new ArrayList<>();
 
-        System.out.println(arr);
-        System.out.println(arr.toString());
-        System.out.println(Arrays.toString(arr));
+
+        stringArrayList.add("lee");
+        stringArrayList.add("lee");
+        stringArrayList.add("lee");
+
+        System.out.println(stringArrayList.toString());
+        System.out.println(stringArrayList);
 
     }
-
 }
