@@ -12,3 +12,5 @@
 - [Chapter.09 유용한 클래스](/doc/Java09.md)
 - [Chapter.10 날짜와 시간 형식화](/doc/Java10.md)
 - [Chapter.11 컬렉션 프레임웍](/doc/Java11.md)
+- [Chapter.12_01 Genercis](/doc/Java12_01.md)
+- [Chapter.12_02 Enums](/doc/Java12_02.md)
